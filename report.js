@@ -3,7 +3,7 @@ require('dotenv').config();
  
 newman.run({
     //collection:`https://api.postman.com/collections/1844288-31e39c41-1c75-4b66-a33b-812c3a0326fc?access_key=${process.env.PMAT_KEY}`,
-    collection:`https://api.postman.com/collections/45580392-f465f2d6-5470-4c11-8751-76193600c65a?access_key=${process.env.PMAT_KEY}`,
+    collection:`https://api.postman.com/collections/45580392-4d4efb63-bde0-4532-aba8-c2d85ed13497?access_key=${process.env.PMAT_KEY}`,
     reporters: 'htmlextra',
     iterationCount: 1,
     reporter: {
